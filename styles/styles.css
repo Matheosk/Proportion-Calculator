@@ -1,0 +1,98 @@
+/*Importamos fuente para el titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+/*Cambiamos el color del fondo, y el estilo del texto*/
+html {
+    background-color: #ffef78;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/*Fondo al cuerpo de pagina, texto centrado y padding*/
+body {
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    width: 40%;    
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Estilo del titulo*/
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.50);
+    color: rgba(40, 40, 40, 1);
+}
+
+/*Estilo de las entradas numericos*/
+input {
+    width: 50px;
+    margin: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+    font-family: monospace;
+    -moz-appearance: textfield; /*Esta funcion solo funciona en el navegador Firefox*/
+}
+
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*Estilo del boton*/
+button {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: all 0.2s;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*Estilo cuando el cursor esta sobre el boton*/
+button:hover {
+    color:white;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 16px;
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    font-weight: bold;
+}
+
+/*Estilo del resultado*/
+p {
+    color: rgba(50, 50, 50, 1);
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    margin: auto;
+    width: 55%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
